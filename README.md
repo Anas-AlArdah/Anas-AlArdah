@@ -64,6 +64,26 @@ I care about readable code, clear user flows, and projects that feel complete: s
 
 ---
 
+## Languages I Work With
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+</div>
+
+<br/>
+
+GitHub currently detects HTML, CSS, and JavaScript from my public repositories. I also work with SQL/MySQL, Python, Java, and C++ through coursework, practice, and backend/database projects.
+
+---
+
 ## Technology Stack
 
 <div align="center">
@@ -122,7 +142,7 @@ const currentFocus = {
 <br/>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anas-AlArdah&theme=tokyonight" alt="Anas AlArdah GitHub stats" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anas-AlArdah&theme=tokyonight" alt="Most used languages by repository" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anas-AlArdah&theme=tokyonight&utcOffset=3" alt="Most productive coding time" width="49%" />
 
 <br/>
 <br/>
