@@ -1,17 +1,20 @@
 <div align="center">
 
+<img src="assets/github-profile-banner.png" alt="Full-stack developer workspace banner" width="100%" />
+
 # Anas AlArdah
 
-### Frontend & Backend Developer | Aspiring Full-Stack Developer
+### Junior Full-Stack Developer focused on React, Node.js, Express, and MySQL
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Frontend+%26+Backend+Developer;Aspiring+Full-Stack+Developer;CS+Apprenticeship+Student;Always+Learning%2C+Always+Building" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=780&height=45&lines=Building+clean+full-stack+web+apps;Turning+ideas+into+usable+interfaces;Learning+fast+and+shipping+better+code;Open+to+internships+and+collaboration" alt="Typing SVG" />
 </a>
 
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Anas--AlArdah-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas-AlArdah)
-![Open to Collaboration](https://img.shields.io/badge/Open_to-Collaboration-58A6FF?style=for-the-badge)
+[![Email](https://img.shields.io/badge/Email-anas.alardah.ar%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.alardah.ar@gmail.com)
+![Open to Work](https://img.shields.io/badge/Open_to-Internships_%26_Junior_Roles-22C55E?style=for-the-badge)
 
 <br/>
 
@@ -22,24 +25,31 @@
 
 ---
 
-## About Me
+## About
+
+I am a CS apprenticeship student and junior full-stack developer from Palestine. I build web applications with a strong focus on clean UI, practical backend APIs, and database-driven features.
+
+I am currently sharpening my skills in React, Node.js, Express, MySQL, and Sequelize while building projects that help me think like a real product developer: clear structure, maintainable code, and useful user flows.
 
 ```javascript
 const anas = {
-  name: "Anas AlArdah",
+  role: "Junior Full-Stack Developer",
   location: "Palestine",
-  role: "Frontend & Backend Developer",
-  education: "CS Apprenticeship Student",
-  focus: ["React", "Node.js", "Express", "MySQL", "Sequelize"],
-  goal: "Build clean, useful full-stack applications",
+  learning: ["React", "Node.js", "Express", "MySQL", "Sequelize"],
+  strengths: ["fast learner", "consistent builder", "problem solver"],
+  lookingFor: ["internships", "junior developer roles", "collaboration"],
 };
 ```
 
-- I am building my skills across the full stack, from clean interfaces to reliable APIs.
-- I enjoy learning by building real projects and improving them one step at a time.
-- I am currently strengthening my React, Node.js, Express, and database foundations.
-- I am open to internships, collaboration, and junior developer opportunities.
-- Ask me about HTML, CSS, JavaScript, React, Node.js, or MySQL.
+---
+
+## What I Can Build
+
+- Responsive websites and dashboards with HTML, CSS, JavaScript, React, Bootstrap, and Tailwind CSS.
+- REST APIs with Node.js and Express.
+- Database-backed applications using MySQL and Sequelize.
+- Authentication-ready app structures, CRUD workflows, and clean route/controller organization.
+- Beginner-friendly tools, portfolio projects, and learning-focused full-stack applications.
 
 ---
 
@@ -70,6 +80,7 @@ const anas = {
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
 </div>
 
@@ -77,11 +88,10 @@ const anas = {
 
 ## Current Focus
 
-- Deepening my understanding of React components, hooks, and state management.
-- Practicing RESTful API design with Node.js and Express.
-- Strengthening database design with MySQL and Sequelize.
-- Connecting frontend and backend into complete full-stack applications.
-- Writing cleaner, more maintainable code every day.
+- Building stronger React foundations: components, hooks, props, state, and reusable UI patterns.
+- Practicing backend structure with Express routes, controllers, middleware, and RESTful API design.
+- Improving database modeling with MySQL relationships and Sequelize models.
+- Writing cleaner commits, better README files, and project documentation that explains the work clearly.
 
 ---
 
@@ -100,15 +110,21 @@ const anas = {
 
 ---
 
-## Connect With Me
+## Let's Connect
 
 <div align="center">
+
+I am open to internships, junior opportunities, and collaboration on web development projects.
+
+<br/>
+<br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Anas--AlArdah-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas-AlArdah)
 [![Email](https://img.shields.io/badge/Email-anas.alardah.ar%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.alardah.ar@gmail.com)
 
 <br/>
+<br/>
 
-> Every expert was once a beginner. Keep building.
+> I am still learning, still building, and getting better with every project.
 
 </div>
