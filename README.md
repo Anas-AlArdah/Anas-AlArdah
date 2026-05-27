@@ -116,9 +116,15 @@ const currentFocus = {
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Anas-AlArdah&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="Anas AlArdah GitHub stats" />
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anas-AlArdah&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anas-AlArdah&theme=tokyonight" alt="Anas AlArdah GitHub profile summary" width="100%" />
 
+<br/>
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anas-AlArdah&theme=tokyonight" alt="Anas AlArdah GitHub stats" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anas-AlArdah&theme=tokyonight" alt="Most used languages by repository" width="49%" />
+
+<br/>
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=Anas-AlArdah&theme=tokyonight&hide_border=true" alt="GitHub streak" />
