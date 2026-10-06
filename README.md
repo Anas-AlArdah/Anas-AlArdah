@@ -1,168 +1,226 @@
 <div align="center">
 
-<img src="assets/profile-header.svg" alt="Anas AlArdah - Junior Full-Stack Developer" width="100%" />
+<img src="assets/profile-header.svg" alt="Anas AlArdah — Junior Full-Stack Developer" width="100%" />
 
 <br/>
 
-[![Email](https://img.shields.io/badge/Email-anas.alardah.ar%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.alardah.ar@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Anas--AlArdah-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas-AlArdah)
-![Open to Work](https://img.shields.io/badge/Open_to-Internships_%26_Junior_Roles-22C55E?style=for-the-badge)
+<a href="https://github.com/Anas-AlArdah">
+  <img src="https://img.shields.io/badge/📍_Palestine-071827?style=for-the-badge&labelColor=071827&color=2563EB" alt="Palestine" />
+</a>
+<img src="https://img.shields.io/badge/💼_Open_to-Internships_&_Junior_Roles-071827?style=for-the-badge&labelColor=071827&color=7C3AED" alt="Open to internships and junior roles" />
 
-<br/>
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Anas-AlArdah&color=58A6FF&style=flat-square&label=Profile+Views" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/Anas-AlArdah?label=Followers&style=flat-square&color=58A6FF" alt="Followers" />
+<a href="https://github.com/Anas-AlArdah?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-12-1D9BF0?style=for-the-badge&logo=github&logoColor=white&labelColor=071827" alt="12 repositories" />
+</a>
+<a href="https://github.com/Anas-AlArdah?tab=stars">
+  <img src="https://img.shields.io/badge/Stars-20-4F7CFF?style=for-the-badge&logo=starship&logoColor=white&labelColor=071827" alt="20 stars" />
+</a>
+<a href="https://github.com/Anas-AlArdah?tab=followers">
+  <img src="https://img.shields.io/github/followers/Anas-AlArdah?style=for-the-badge&logo=github&label=Followers&labelColor=071827&color=00A7E8" alt="GitHub followers" />
+</a>
 
 </div>
 
----
+<br/>
 
-## Professional Snapshot
-
-I am a junior full-stack developer and CS apprenticeship student focused on building clean, practical web applications. My current stack is React on the frontend, Node.js and Express on the backend, and MySQL with Sequelize for data-driven features.
-
-I care about readable code, clear user flows, and projects that feel complete: structured folders, meaningful commits, useful documentation, and interfaces that are easy to use.
+## 🔹 Professional Snapshot
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <strong>What I am building toward</strong>
+    <td width="57%" valign="top">
+      <br/>
+      I am a <strong>Computer Engineering student</strong> with a strong interest in web development and software engineering. I enjoy building practical projects that solve real needs, learning new technologies, and continuously improving my skills.
       <br/><br/>
-      Full-stack web apps with responsive interfaces, REST APIs, database models, and maintainable project structure.
+      I focus on writing clean code, building responsive user interfaces, and developing robust backend APIs with a solid understanding of database design.
+      <br/><br/>
     </td>
-    <td width="50%" valign="top">
-      <strong>What I am looking for</strong>
-      <br/><br/>
-      Internship opportunities, junior developer roles, and collaboration with developers who care about growing through real work.
+    <td width="43%" valign="top">
+      <h3>⚡ What I Bring</h3>
+      <ul>
+        <li>Practical experience with modern technologies</li>
+        <li>Problem-solving and continuous learning</li>
+        <li>Real-world features and clear user flows</li>
+        <li>Clean, organized, maintainable code</li>
+        <li>Open collaboration and new opportunities</li>
+      </ul>
     </td>
   </tr>
 </table>
 
----
-
-## Core Skills
+## 🧊 Tech Stack
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <strong>Frontend</strong>
-      <br/><br/>
-      HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, responsive layouts, reusable UI components.
+    <td width="25%" valign="top">
+      <h3 align="center">🖥️ Frontend</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+        <img src="https://img.shields.io/badge/Tailwind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+      </p>
     </td>
-    <td width="33%" valign="top">
-      <strong>Backend</strong>
-      <br/><br/>
-      Node.js, Express, REST API structure, routing, controllers, middleware, CRUD workflows.
+    <td width="25%" valign="top">
+      <h3 align="center">🗄️ Backend</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Node.js-1B2B20?style=flat-square&logo=nodedotjs&logoColor=6DA55F" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Express.js-111827?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
+      </p>
+      <p align="center"><sub>REST APIs · Routing<br/>Controllers · Middleware · CRUD</sub></p>
     </td>
-    <td width="33%" valign="top">
-      <strong>Database & Tools</strong>
-      <br/><br/>
-      MySQL, Sequelize, Git, GitHub, VS Code, Python, Java, C++.
+    <td width="25%" valign="top">
+      <h3 align="center">🛢️ Database</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/MySQL-0B1D2A?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL" />
+        <img src="https://img.shields.io/badge/Sequelize-0B1D2A?style=flat-square&logo=sequelize&logoColor=52B0E7" alt="Sequelize" />
+      </p>
+    </td>
+    <td width="25%" valign="top">
+      <h3 align="center">🛠️ Tools &amp; Others</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
+        <img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+        <img src="https://img.shields.io/badge/VS_Code-111827?style=flat-square&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
+        <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
+        <img src="https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=ED8B00" alt="Java" />
+        <img src="https://img.shields.io/badge/C++-111827?style=flat-square&logo=cplusplus&logoColor=659AD2" alt="C++" />
+      </p>
     </td>
   </tr>
 </table>
 
----
+## 📁 Featured Projects
 
-## Languages I Work With
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Anas-AlArdah/iCAP">iCAP ↗</a></h3>
+      <p>Front-end web application for the Computer Apprenticeship Program, built with TypeScript and a modern responsive interface.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-071827?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/React-071827?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-071827?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+      </p>
+      <a href="https://github.com/Anas-AlArdah/iCAP"><strong>View Project →</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Anas-AlArdah/Dalouna-12400028">Dalouna-12400028 ↗</a> ⭐ 2</h3>
+      <p>A responsive restaurant website built with HTML and CSS. Clean design with practical sections and a smooth layout.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-071827?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-071827?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
+      </p>
+      <a href="https://github.com/Anas-AlArdah/Dalouna-12400028"><strong>View Project →</strong></a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <h3>☀️ <a href="https://github.com/Anas-AlArdah/Mood-Switcher">Mood-Switcher</a></h3>
+      <p>Simple and interactive web app.</p>
+      <sub>HTML · CSS · JavaScript</sub><br/><br/>
+      <a href="https://github.com/Anas-AlArdah/Mood-Switcher">View →</a>
+    </td>
+    <td width="25%" valign="top">
+      <h3>👤 <a href="https://github.com/Anas-AlArdah/Profile-Fetch">Profile-Fetch</a></h3>
+      <p>Fetch and display GitHub profile data.</p>
+      <sub>JavaScript · API</sub><br/><br/>
+      <a href="https://github.com/Anas-AlArdah/Profile-Fetch">View →</a>
+    </td>
+    <td width="25%" valign="top">
+      <h3>🖼️ <a href="https://github.com/Anas-AlArdah/Avatar">Avatar</a></h3>
+      <p>Dynamic avatar generator with customization.</p>
+      <sub>JavaScript · Canvas</sub><br/><br/>
+      <a href="https://github.com/Anas-AlArdah/Avatar">View →</a>
+    </td>
+    <td width="25%" valign="top">
+      <h3>🛍️ <a href="https://github.com/Anas-AlArdah/Adidas-Shoes">Adidas-Shoes</a></h3>
+      <p>Modern product layout with responsive design.</p>
+      <sub>HTML · CSS · JavaScript</sub><br/><br/>
+      <a href="https://github.com/Anas-AlArdah/Adidas-Shoes">View →</a>
+    </td>
+  </tr>
+</table>
+
+## ⚙️ How I Build
+
+<table>
+  <tr align="center">
+    <td width="20%"><strong>01</strong><br/><br/>📋<br/><br/><sub>Understand the user flow and requirements</sub></td>
+    <td width="20%"><strong>02</strong><br/><br/>💻<br/><br/><sub>Write clean and maintainable code</sub></td>
+    <td width="20%"><strong>03</strong><br/><br/>🧩<br/><br/><sub>Build core features first and test them</sub></td>
+    <td width="20%"><strong>04</strong><br/><br/>📝<br/><br/><sub>Document the project and keep clear commits</sub></td>
+    <td width="20%"><strong>05</strong><br/><br/>🔄<br/><br/><sub>Iterate, improve, and add new features</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="48%" valign="top">
+      <h2>🎯 Current Focus</h2>
+      <ul>
+        <li>Building advanced React components with hooks and state</li>
+        <li>Developing Express APIs with middleware and REST patterns</li>
+        <li>Working with MySQL and Sequelize relationships and models</li>
+        <li>Improving project structure and documentation</li>
+        <li>Building real-world projects and sharpening problem-solving skills</li>
+      </ul>
+    </td>
+    <td width="52%" valign="top">
+      <h2>📊 GitHub Snapshot</h2>
+      <p align="center">
+        <a href="https://github.com/Anas-AlArdah">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anas-AlArdah&theme=tokyonight" alt="Anas AlArdah GitHub stats" width="48%" />
+        </a>
+        <a href="https://github.com/Anas-AlArdah">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anas-AlArdah&theme=tokyonight&utcOffset=3" alt="Anas AlArdah productive time" width="48%" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+### Contribution Activity
+
+<a href="https://github.com/Anas-AlArdah">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anas-AlArdah&theme=tokyonight" alt="Anas AlArdah GitHub contribution activity" width="100%" />
+</a>
 
 </div>
 
-<br/>
-
-GitHub currently detects HTML, CSS, and JavaScript from my public repositories. I also work with SQL/MySQL, Python, Java, and C++ through coursework, practice, and backend/database projects.
-
----
-
-## Technology Stack
+## ✉️ Let’s Connect
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+I’m always open to discussing new opportunities, interesting projects, or just tech in general.
 
-</div>
+<br/><br/>
+
+<a href="https://github.com/Anas-AlArdah">
+  <img src="https://img.shields.io/badge/GitHub-Anas--AlArdah-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="mailto:anas.alardah.ar@gmail.com">
+  <img src="https://img.shields.io/badge/Email-anas.alardah.ar%40gmail.com-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+<br/><br/>
 
 ---
 
-## How I Approach Projects
+**Thank you for visiting my profile!**
 
-- Start with the user flow: what the page or feature should help someone do.
-- Keep the structure readable: clear components, routes, controllers, and models.
-- Build the core feature first, then improve design, validation, and edge cases.
-- Document the project so another developer can understand and run it.
-- Improve with feedback instead of treating the first version as finished.
+<sub>Consistent learning and building real projects lead to real opportunities.</sub>
 
----
+<br/><br/>
 
-## Current Focus
-
-```javascript
-const currentFocus = {
-  frontend: ["React components", "hooks", "state", "responsive UI"],
-  backend: ["Express APIs", "middleware", "REST patterns"],
-  database: ["MySQL relationships", "Sequelize models"],
-  professionalGrowth: ["clean commits", "documentation", "project polish"],
-};
-```
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anas-AlArdah&theme=tokyonight" alt="Anas AlArdah GitHub profile summary" width="100%" />
-
-<br/>
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anas-AlArdah&theme=tokyonight" alt="Anas AlArdah GitHub stats" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anas-AlArdah&theme=tokyonight&utcOffset=3" alt="Most productive coding time" width="49%" />
-
-<br/>
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Anas-AlArdah&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-</div>
-
----
-
-## Contact
-
-<div align="center">
-
-I am open to internships, junior developer opportunities, and collaboration on web development projects.
-
-<br/>
-<br/>
-
-[![Email](https://img.shields.io/badge/Email-anas.alardah.ar%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.alardah.ar@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Anas--AlArdah-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas-AlArdah)
+`Build` · `Learn` · `Improve` · `Repeat`
 
 </div>
