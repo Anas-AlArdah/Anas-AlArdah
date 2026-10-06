@@ -148,6 +148,39 @@
   </tr>
 </table>
 
+## 🏗️ Featured Build: Binaa Pal
+
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <p><strong>Binaa Pal</strong> is a full-stack platform connecting clients with skilled tradespeople in Palestine.</p>
+      <ul>
+        <li>Search workers by skill, location, and name</li>
+        <li>Worker profiles, portfolios, availability, and reviews</li>
+        <li>Service requests and worker order tracking</li>
+        <li>Client, worker, and admin roles with dashboard management</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/React-071827?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Node.js-071827?style=flat-square&logo=nodedotjs&logoColor=6DA55F" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Express-071827?style=flat-square&logo=express&logoColor=white" alt="Express" />
+        <img src="https://img.shields.io/badge/PostgreSQL-071827?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Supabase-071827?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+      </p>
+      <a href="https://github.com/Anas-AlArdah/Binaa_Pal"><strong>View Repository →</strong></a>
+    </td>
+    <td width="42%" valign="top">
+      <strong>Architecture</strong>
+      <pre>Binaa Pal
+├── React Frontend
+├── Node + Express API
+├── Sequelize Models
+├── Supabase PostgreSQL
+└── Client · Worker · Admin flows</pre>
+    </td>
+  </tr>
+</table>
+
 ## ⚙️ How I Build
 
 <table>
