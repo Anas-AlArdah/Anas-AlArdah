@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1820" viewBox="0 0 1200 1820" role="img" aria-labelledby="title desc">
+  <title id="title">Anas AlArdah — Junior Full-Stack Developer</title>
+  <desc id="desc">A neon developer portfolio dashboard featuring a professional summary, technology stack, projects, workflow, GitHub snapshot, and contact details.</desc>
+
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1200" y2="1820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020C15"/>
+      <stop offset="0.55" stop-color="#03101A"/>
+      <stop offset="1" stop-color="#020A11"/>
+    </linearGradient>
+    <linearGradient id="panelBg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0A1C2A"/>
+      <stop offset="1" stop-color="#04111B"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10283A"/>
+      <stop offset="1" stop-color="#071722"/>
+    </linearGradient>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1200" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020B13"/>
+      <stop offset="0.48" stop-color="#061526"/>
+      <stop offset="1" stop-color="#073463"/>
+    </linearGradient>
+    <linearGradient id="nameGradient" x1="215" y1="100" x2="510" y2="155" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#44B7FF"/>
+      <stop offset="0.52" stop-color="#5E91FF"/>
+      <stop offset="1" stop-color="#876BFF"/>
+    </linearGradient>
+    <linearGradient id="purpleButton" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#153E6C"/>
+      <stop offset="1" stop-color="#271050"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="0" cy="0" r="1" gradientTransform="translate(885 105) rotate(90) scale(310 380)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0879F7" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0879F7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#2780BB" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <pattern id="contrib" width="15" height="15" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" rx="1.5" fill="#17344F"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000814" flood-opacity="0.72"/>
+    </filter>
+    <style>
+      text { font-family: "Segoe UI", Inter, Arial, sans-serif; }
+      .white { fill: #F4F7FB; }
+      .muted { fill: #B7C2D0; }
+      .blue { fill: #30AFFF; }
+      .purple { fill: #8B72FF; }
+      .yellow { fill: #FFC83D; }
+      .section-title { fill: #F5F7FB; font-size: 27px; font-weight: 700; }
+      .card-title { fill: #F5F7FB; font-size: 19px; font-weight: 700; }
+      .body { fill: #BEC8D5; font-size: 16px; }
+      .small { fill: #AFBBC9; font-size: 13px; }
+      .tiny { fill: #A7B4C3; font-size: 11px; }
+      .label { fill: #ECF3FB; font-size: 13px; font-weight: 600; }
+      .panel { fill: url(#panelBg); stroke: #1B4969; stroke-width: 1.2; }
+      .card { fill: url(#cardBg); stroke: #285777; stroke-width: 1.1; }
+      .divider { stroke: #19405B; stroke-width: 1; }
+      .accent-line { fill: #4F89FF; }
+      .outline-icon { fill: none; stroke: #35AEFF; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; }
+      .pill { fill: #102334; stroke: #35617D; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1820" fill="url(#pageBg)"/>
+  <rect width="1200" height="1820" fill="url(#grid)"/>
+
+  <!-- Hero -->
+  <g>
+    <rect x="0" y="0" width="1200" height="410" fill="url(#heroBg)"/>
+    <rect x="0" y="0" width="1200" height="410" fill="url(#heroGlow)"/>
+    <path d="M430 0H570L640 72V255L720 335" fill="none" stroke="#1B82DA" stroke-opacity="0.42"/>
+    <path d="M463 0H600L665 65V235" fill="none" stroke="#166EB9" stroke-opacity="0.36"/>
+
+    <text x="48" y="77" class="white" font-size="18">&gt; Hello, I’m</text>
+    <text x="48" y="145" class="white" font-size="61" font-weight="800">Anas</text>
+    <text x="205" y="145" fill="url(#nameGradient)" font-size="61" font-weight="800">AlArdah</text>
+    <text x="48" y="184" class="white" font-size="29" font-weight="700">Junior Full-Stack Developer</text>
+    <text x="48" y="224" class="muted" font-size="17">I build clean, responsive web applications with practical</text>
+    <text x="48" y="249" class="muted" font-size="17">user flows, maintainable structure, and real-world focus.</text>
+
+    <g transform="translate(48 273)">
+      <rect width="130" height="42" rx="21" fill="#071522" stroke="#6A5BFF" stroke-width="1.4"/>
+      <path d="M22 13a7 7 0 0 0-7 7c0 5 7 11 7 11s7-6 7-11a7 7 0 0 0-7-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" fill="#5790FF"/>
+      <text x="39" y="27" class="white" font-size="14">Palestine</text>
+    </g>
+    <g transform="translate(190 273)">
+      <rect width="305" height="42" rx="21" fill="#071522" stroke="#6A5BFF" stroke-width="1.4"/>
+      <rect x="16" y="15" width="18" height="14" rx="2" fill="#966DFF"/>
+      <path d="M21 15v-4h8v4" fill="none" stroke="#C6B4FF" stroke-width="2"/>
+      <text x="45" y="27" class="white" font-size="14">Open to Internship &amp; Junior Roles</text>
+    </g>
+
+    <g transform="translate(48 332)">
+      <rect width="447" height="61" rx="10" fill="#06141F" stroke="#1D4A68"/>
+      <line x1="149" y1="13" x2="149" y2="48" class="divider"/>
+      <line x1="298" y1="13" x2="298" y2="48" class="divider"/>
+      <g transform="translate(18 13)">
+        <path d="M7 2h16v24H7a5 5 0 0 0-5 5V7a5 5 0 0 1 5-5Z" class="outline-icon"/>
+        <text x="42" y="18" class="white" font-size="20" font-weight="700">12</text>
+        <text x="42" y="36" class="small">Repositories</text>
+      </g>
+      <g transform="translate(169 13)">
+        <path d="m14 1 4 8 9 1-6.5 6.2 1.5 9-8-4.2-8 4.2 1.5-9L1 10l9-1 4-8Z" class="outline-icon"/>
+        <text x="42" y="18" class="white" font-size="20" font-weight="700">20</text>
+        <text x="42" y="36" class="small">Stars</text>
+      </g>
+      <g transform="translate(317 13)">
+        <circle cx="12" cy="9" r="6" class="outline-icon"/>
+        <path d="M1 28c1-7 5-10 11-10s10 3 11 10M24 6c5 1 7 4 7 8s-2 7-6 8" class="outline-icon"/>
+        <text x="46" y="18" class="white" font-size="20" font-weight="700">5</text>
+        <text x="46" y="36" class="small">Followers</text>
+      </g>
+    </g>
+
+    <!-- Workspace illustration -->
+    <g transform="translate(592 27)" filter="url(#shadow)">
+      <g transform="translate(390 12) rotate(-4)">
+        <rect width="150" height="181" rx="7" fill="#07132A" stroke="#6771FF"/>
+        <circle cx="12" cy="12" r="2" fill="#637BFF"/>
+        <text x="25" y="51" fill="#C5C4FF" font-size="17">BUILD</text>
+        <text x="25" y="80" fill="#C5C4FF" font-size="17">LEARN</text>
+        <text x="25" y="109" fill="#C5C4FF" font-size="17">IMPROVE</text>
+        <text x="25" y="138" fill="#C5C4FF" font-size="17">REPEAT</text>
+        <rect x="26" y="157" width="42" height="3" rx="1.5" fill="#5377FF" filter="url(#glow)"/>
+      </g>
+      <g transform="translate(16 48) rotate(3 190 135)">
+        <rect width="384" height="280" rx="14" fill="#02070D" stroke="#7A91C8" stroke-width="1.4"/>
+        <rect x="8" y="8" width="368" height="261" rx="8" fill="#07131E"/>
+        <rect x="8" y="8" width="368" height="31" rx="8" fill="#0C1E2D"/>
+        <circle cx="24" cy="23" r="3" fill="#2D8FFF"/>
+        <circle cx="37" cy="23" r="3" fill="#263F55"/>
+        <text x="58" y="27" fill="#9AB3CA" font-size="10">App.jsx</text>
+        <rect x="8" y="39" width="90" height="230" fill="#06111A"/>
+        <line x1="98" y1="39" x2="98" y2="269" stroke="#18364E"/>
+        <text x="18" y="61" fill="#46B4FF" font-size="9">▾ src</text>
+        <text x="25" y="80" fill="#84A1BA" font-size="8">▸ components</text>
+        <text x="25" y="98" fill="#84A1BA" font-size="8">▸ pages</text>
+        <text x="25" y="116" fill="#84A1BA" font-size="8">▸ services</text>
+        <text x="25" y="134" fill="#D2E1EF" font-size="8">App.jsx</text>
+        <g font-family="Consolas, monospace" font-size="10">
+          <text x="115" y="65" fill="#D878FF">import <tspan fill="#B9CDE0">{ useState } </tspan><tspan fill="#D878FF">from </tspan><tspan fill="#C48BFF">'react'</tspan></text>
+          <text x="115" y="92" fill="#718DFF">function <tspan fill="#49D7FF">App</tspan><tspan fill="#B9CDE0">() {</tspan></text>
+          <text x="125" y="112" fill="#D878FF">const <tspan fill="#B9CDE0">[count, setCount] =</tspan></text>
+          <text x="145" y="130" fill="#B9CDE0">useState(<tspan fill="#FFB45B">0</tspan>);</text>
+          <text x="125" y="158" fill="#D878FF">return <tspan fill="#B9CDE0">(</tspan></text>
+          <text x="145" y="179" fill="#51D6FF">&lt;div <tspan fill="#B9CDE0">className=</tspan><tspan fill="#C58FFF">"app"</tspan>&gt;</text>
+          <text x="165" y="199" fill="#D4E2EE">Build. Learn.</text>
+          <text x="165" y="216" fill="#D4E2EE">Improve. Repeat.</text>
+          <text x="145" y="237" fill="#51D6FF">&lt;/div&gt;</text>
+          <text x="125" y="253" fill="#B9CDE0">);</text>
+        </g>
+      </g>
+      <path d="M2 326H423L458 360H-22Z" fill="#18212C" stroke="#657183"/>
+      <path d="M155 328H278L267 339H166Z" fill="#080D12"/>
+    </g>
+  </g>
+
+  <!-- Snapshot -->
+  <g transform="translate(25 430)">
+    <rect width="1150" height="221" rx="14" class="panel"/>
+    <line x1="637" y1="22" x2="637" y2="199" class="divider"/>
+    <rect x="22" y="23" width="5" height="39" rx="2.5" class="accent-line"/>
+    <text x="50" y="51" class="section-title">Professional Snapshot</text>
+    <text x="50" y="88" class="body">I am a Computer Engineering student with a strong interest in web</text>
+    <text x="50" y="113" class="body">development and software engineering. I enjoy building practical</text>
+    <text x="50" y="138" class="body">projects that solve real needs, learning new technologies, and</text>
+    <text x="50" y="163" class="body">continuously improving my skills. I focus on responsive interfaces,</text>
+    <text x="50" y="188" class="body">clean code, robust APIs, and thoughtful database design.</text>
+
+    <rect x="662" y="23" width="5" height="39" rx="2.5" class="accent-line"/>
+    <text x="690" y="51" class="section-title">What I Bring</text>
+    <g transform="translate(690 76)">
+      <text x="0" y="17" class="blue" font-size="20" font-weight="700">&lt;/&gt;</text><text x="43" y="16" class="body">Practical project experience with modern technologies</text>
+      <text x="2" y="48" class="blue" font-size="23">✧</text><text x="43" y="46" class="body">Problem-solving and continuous learning mindset</text>
+      <text x="1" y="78" class="blue" font-size="20">♙</text><text x="43" y="76" class="body">Real-world features and clear user flows</text>
+      <text x="1" y="108" class="blue" font-size="20">▥</text><text x="43" y="106" class="body">Clean, organized, and maintainable code</text>
+      <text x="1" y="138" class="blue" font-size="20">◇</text><text x="43" y="136" class="body">Open to collaboration and new opportunities</text>
+    </g>
+  </g>
+
+  <!-- Tech stack -->
+  <g transform="translate(25 670)">
+    <rect width="1150" height="278" rx="14" class="panel"/>
+    <text x="28" y="43" class="blue" font-size="31">▱</text>
+    <text x="70" y="42" class="section-title">Tech Stack</text>
+    <text x="966" y="39" class="small">Technologies I work with</text>
+    <rect x="1110" y="35" width="25" height="2" fill="#6574FF"/>
+
+    <g transform="translate(16 63)">
+      <rect width="276" height="196" rx="11" class="card"/>
+      <text x="18" y="36" class="purple" font-size="28">▣</text><text x="61" y="35" class="card-title">Frontend</text>
+      <g transform="translate(18 57)">
+        <rect width="73" height="34" rx="6" class="pill"/><text x="10" y="22" fill="#FF6A42" font-size="14" font-weight="800">5</text><text x="30" y="22" class="label">HTML</text>
+        <rect x="82" width="67" height="34" rx="6" class="pill"/><text x="92" y="22" fill="#4E82FF" font-size="14" font-weight="800">5</text><text x="112" y="22" class="label">CSS</text>
+        <rect x="158" width="98" height="34" rx="6" class="pill"/><text x="168" y="22" fill="#FFD542" font-size="12" font-weight="800">JS</text><text x="192" y="22" class="label">JavaScript</text>
+        <rect y="45" width="83" height="34" rx="6" class="pill"/><text x="9" y="67" fill="#48DDF5" font-size="18">⚛</text><text x="33" y="67" class="label">React</text>
+        <rect x="92" y="45" width="99" height="34" rx="6" class="pill"/><text x="102" y="67" fill="#A578FF" font-size="16" font-weight="800">B</text><text x="126" y="67" class="label">Bootstrap</text>
+        <rect y="90" width="121" height="34" rx="6" class="pill"/><text x="10" y="112" fill="#47D7EC" font-size="17">〰</text><text x="38" y="112" class="label">Tailwind CSS</text>
+      </g>
+    </g>
+
+    <g transform="translate(304 63)">
+      <rect width="247" height="196" rx="11" class="card"/>
+      <text x="18" y="36" fill="#34E0CE" font-size="27">▤</text><text x="60" y="35" class="card-title">Backend</text>
+      <g transform="translate(18 58)">
+        <rect width="91" height="34" rx="6" class="pill"/><text x="9" y="22" fill="#7FDF50" font-size="14" font-weight="800">N</text><text x="32" y="22" class="label">Node.js</text>
+        <rect x="101" width="105" height="34" rx="6" class="pill"/><text x="111" y="22" class="label">Express.js</text>
+        <text x="0" y="72" class="small">REST APIs</text><text x="82" y="72" class="small">Routing</text><text x="141" y="72" class="small">Controllers</text>
+        <text x="0" y="99" class="small">Middleware</text><text x="96" y="99" class="small">CRUD</text>
+      </g>
+    </g>
+
+    <g transform="translate(563 63)">
+      <rect width="229" height="196" rx="11" class="card"/>
+      <text x="18" y="36" class="yellow" font-size="28">◉</text><text x="59" y="35" class="card-title">Database</text>
+      <g transform="translate(18 65)">
+        <text x="2" y="32" fill="#28AFFF" font-size="30">⌁</text><text x="43" y="27" class="label">MySQL</text>
+        <text x="116" y="32" fill="#45AEFF" font-size="28">⬡</text><text x="153" y="27" class="label">Sequelize</text>
+      </g>
+    </g>
+
+    <g transform="translate(804 63)">
+      <rect width="330" height="196" rx="11" class="card"/>
+      <text x="18" y="36" class="purple" font-size="29">⌁</text><text x="59" y="35" class="card-title">Tools &amp; Others</text>
+      <g transform="translate(18 58)">
+        <rect width="64" height="34" rx="6" class="pill"/><text x="9" y="22" fill="#FF6945" font-size="13">◆</text><text x="31" y="22" class="label">Git</text>
+        <rect x="73" width="87" height="34" rx="6" class="pill"/><text x="82" y="22" fill="#FFFFFF" font-size="14">●</text><text x="104" y="22" class="label">GitHub</text>
+        <rect x="169" width="104" height="34" rx="6" class="pill"/><text x="179" y="22" fill="#2CABF4" font-size="15">⌁</text><text x="202" y="22" class="label">VS Code</text>
+        <text x="1" y="78" fill="#FFD34B" font-size="18">●</text><text x="27" y="77" class="label">Python</text>
+        <text x="105" y="79" fill="#F35D46" font-size="19">♨</text><text x="131" y="77" class="label">Java</text>
+        <text x="198" y="78" fill="#4F9CDB" font-size="16" font-weight="800">C</text><text x="224" y="77" class="label">C++</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Projects -->
+  <g transform="translate(25 967)">
+    <rect width="1150" height="433" rx="14" class="panel"/>
+    <text x="27" y="42" fill="#4A83FF" font-size="29">▰</text><text x="71" y="41" class="section-title">Featured Projects</text>
+    <text x="985" y="39" class="small">Selected work</text><rect x="1097" y="35" width="37" height="2" fill="#6574FF"/>
+
+    <g transform="translate(13 60)">
+      <rect width="554" height="208" rx="10" class="card"/>
+      <text x="18" y="35" class="white" font-size="21" font-weight="700">iCAP</text><text x="70" y="34" class="blue" font-size="18">↗</text>
+      <text x="18" y="65" class="small">Front-end application for the Computer Apprenticeship</text>
+      <text x="18" y="84" class="small">Program, built with TypeScript and a modern interface.</text>
+      <g transform="translate(18 103)"><rect width="73" height="27" rx="5" class="pill"/><text x="10" y="18" class="tiny">TypeScript</text><rect x="80" width="55" height="27" rx="5" class="pill"/><text x="91" y="18" class="tiny">React</text><rect x="142" width="92" height="27" rx="5" class="pill"/><text x="152" y="18" class="tiny">Tailwind CSS</text></g>
+      <text x="18" y="177" class="tiny">◔ 24 commits</text>
+      <g transform="translate(303 23)">
+        <rect width="229" height="133" rx="7" fill="#F5F8FF" stroke="#384960" stroke-width="5"/>
+        <rect y="0" width="229" height="16" rx="5" fill="#171C26"/>
+        <circle cx="10" cy="8" r="2" fill="#607083"/><circle cx="18" cy="8" r="2" fill="#607083"/>
+        <path d="M0 16H229V133H0Z" fill="#EEF4FF"/>
+        <path d="M130 16H229V133H85Z" fill="#D9E6FF"/>
+        <path d="M168 16H229V93L112 133H81Z" fill="#B7CEFF" opacity="0.65"/>
+        <text x="22" y="61" fill="#2559B9" font-size="27" font-weight="800">iCAP</text>
+        <text x="22" y="78" fill="#3E6198" font-size="7">Computer Apprenticeship Program</text>
+        <rect x="22" y="91" width="51" height="12" rx="2" fill="#2E6BE1"/>
+      </g>
+      <g transform="translate(393 163)"><rect width="139" height="34" rx="6" fill="url(#purpleButton)" stroke="#7856FF"/><text x="23" y="22" class="white" font-size="12">View Project</text><text x="112" y="22" fill="#8796FF">→</text></g>
+    </g>
+
+    <g transform="translate(581 60)">
+      <rect width="556" height="208" rx="10" class="card"/>
+      <text x="18" y="35" class="white" font-size="21" font-weight="700">Dalouna-12400028</text><text x="208" y="34" class="blue" font-size="18">↗</text><text x="500" y="35" class="yellow" font-size="17">★ 2</text>
+      <text x="18" y="65" class="small">Responsive restaurant website built with HTML and CSS.</text>
+      <text x="18" y="84" class="small">Clean design with practical sections and a smooth layout.</text>
+      <g transform="translate(18 103)"><rect width="55" height="27" rx="5" class="pill"/><text x="13" y="18" class="tiny">HTML</text><rect x="80" width="47" height="27" rx="5" class="pill"/><text x="94" y="18" class="tiny">CSS</text></g>
+      <text x="18" y="177" class="tiny">◔ 23 commits</text>
+      <g transform="translate(303 23)">
+        <rect width="231" height="133" rx="7" fill="#0B0807" stroke="#384960" stroke-width="5"/>
+        <rect y="0" width="231" height="16" rx="5" fill="#171C26"/>
+        <circle cx="10" cy="8" r="2" fill="#607083"/><circle cx="18" cy="8" r="2" fill="#607083"/>
+        <text x="17" y="49" fill="#FFF4E9" font-family="Georgia, serif" font-size="16" font-weight="700">Delicious</text>
+        <text x="17" y="67" fill="#FFF4E9" font-family="Georgia, serif" font-size="16" font-weight="700">Food, Great</text>
+        <text x="17" y="85" fill="#FFF4E9" font-family="Georgia, serif" font-size="16" font-weight="700">Moments</text>
+        <circle cx="172" cy="77" r="38" fill="#6B2C19"/><circle cx="172" cy="77" r="29" fill="#CD7133"/><circle cx="172" cy="77" r="18" fill="#28431D"/>
+        <rect x="17" y="100" width="44" height="12" rx="3" fill="#A85E31"/>
+      </g>
+      <g transform="translate(395 163)"><rect width="139" height="34" rx="6" fill="url(#purpleButton)" stroke="#7856FF"/><text x="23" y="22" class="white" font-size="12">View Project</text><text x="112" y="22" fill="#8796FF">→</text></g>
+    </g>
+
+    <g transform="translate(13 281)">
+      <g><rect width="272" height="133" rx="9" class="card"/><text x="17" y="37" class="yellow" font-size="31">☼</text><text x="65" y="30" class="card-title">Mood-Switcher</text><text x="65" y="56" class="small">Simple and interactive</text><text x="65" y="76" class="small">web app.</text><text x="18" y="112" class="tiny">HTML  ·  CSS  ·  JavaScript</text><text x="221" y="112" class="blue" font-size="12">View →</text></g>
+      <g transform="translate(282)"><rect width="272" height="133" rx="9" class="card"/><text x="17" y="38" class="blue" font-size="29">♙</text><text x="65" y="30" class="card-title">Profile-Fetch</text><text x="65" y="56" class="small">Fetch and display GitHub</text><text x="65" y="76" class="small">profile data.</text><text x="18" y="112" class="tiny">JavaScript  ·  API</text><text x="221" y="112" class="blue" font-size="12">View →</text></g>
+      <g transform="translate(564)"><rect width="272" height="133" rx="9" class="card"/><text x="17" y="38" class="purple" font-size="28">▧</text><text x="65" y="30" class="card-title">Avatar</text><text x="65" y="56" class="small">Dynamic avatar generator</text><text x="65" y="76" class="small">with customization.</text><text x="18" y="112" class="tiny">JavaScript  ·  Canvas</text><text x="221" y="112" class="blue" font-size="12">View →</text></g>
+      <g transform="translate(846)"><rect width="278" height="133" rx="9" class="card"/><text x="17" y="38" class="blue" font-size="28">♧</text><text x="65" y="30" class="card-title">Adidas-Shoes</text><text x="65" y="56" class="small">Modern product layout</text><text x="65" y="76" class="small">with responsive design.</text><text x="18" y="112" class="tiny">HTML  ·  CSS  ·  JavaScript</text><text x="227" y="112" class="blue" font-size="12">View →</text></g>
+    </g>
+  </g>
+
+  <!-- Process -->
+  <g transform="translate(25 1419)">
+    <rect width="1150" height="161" rx="14" class="panel"/>
+    <text x="27" y="41" class="purple" font-size="29">⚙</text><text x="70" y="40" class="section-title">How I Build</text>
+    <text x="978" y="38" class="small">My approach to development</text><rect x="1110" y="34" width="25" height="2" fill="#6574FF"/>
+    <g transform="translate(15 57)">
+      <g><rect width="206" height="88" rx="9" class="card"/><text x="14" y="26" class="blue" font-size="18" font-weight="700">01</text><text x="98" y="29" class="purple" font-size="23">▤</text><text x="34" y="56" class="tiny">Understand the user flow</text><text x="47" y="73" class="tiny">and requirements</text></g>
+      <text x="212" y="53" class="blue" font-size="22">→</text>
+      <g transform="translate(228)"><rect width="206" height="88" rx="9" class="card"/><text x="14" y="26" class="blue" font-size="18" font-weight="700">02</text><text x="90" y="29" class="purple" font-size="19">&lt;/&gt;</text><text x="40" y="56" class="tiny">Write clean, readable,</text><text x="48" y="73" class="tiny">maintainable code</text></g>
+      <text x="440" y="53" class="blue" font-size="22">→</text>
+      <g transform="translate(456)"><rect width="206" height="88" rx="9" class="card"/><text x="14" y="26" class="blue" font-size="18" font-weight="700">03</text><text x="95" y="29" fill="#65D06F" font-size="22">◇</text><text x="37" y="56" class="tiny">Build core features first</text><text x="64" y="73" class="tiny">and test them</text></g>
+      <text x="668" y="53" class="blue" font-size="22">→</text>
+      <g transform="translate(684)"><rect width="206" height="88" rx="9" class="card"/><text x="14" y="26" class="blue" font-size="18" font-weight="700">04</text><text x="97" y="29" fill="#FF8A8A" font-size="22">▤</text><text x="31" y="56" class="tiny">Document the project and</text><text x="51" y="73" class="tiny">keep clear commits</text></g>
+      <text x="896" y="53" class="blue" font-size="22">→</text>
+      <g transform="translate(912)"><rect width="206" height="88" rx="9" class="card"/><text x="14" y="26" class="blue" font-size="18" font-weight="700">05</text><text x="94" y="29" class="blue" font-size="23">↻</text><text x="52" y="56" class="tiny">Iterate, improve,</text><text x="45" y="73" class="tiny">and add new features</text></g>
+    </g>
+  </g>
+
+  <!-- Bottom cards -->
+  <g transform="translate(25 1599)">
+    <g>
+      <rect width="447" height="151" rx="12" class="panel"/>
+      <text x="18" y="34" class="purple" font-size="25">◎</text><text x="55" y="32" class="card-title">Current Focus</text>
+      <g class="small">
+        <circle cx="24" cy="58" r="5" fill="none" stroke="#208FFF" stroke-width="2"/><text x="40" y="63">Advanced React components with hooks and state</text>
+        <circle cx="24" cy="81" r="5" fill="none" stroke="#208FFF" stroke-width="2"/><text x="40" y="86">Express APIs, middleware, and REST patterns</text>
+        <circle cx="24" cy="104" r="5" fill="none" stroke="#208FFF" stroke-width="2"/><text x="40" y="109">MySQL and Sequelize relationships and models</text>
+        <circle cx="24" cy="127" r="5" fill="none" stroke="#208FFF" stroke-width="2"/><text x="40" y="132">Project structure, documentation, and polish</text>
+      </g>
+    </g>
+
+    <g transform="translate(461)">
+      <rect width="398" height="151" rx="12" class="panel"/>
+      <text x="18" y="34" class="blue" font-size="25">▥</text><text x="55" y="32" class="card-title">GitHub Snapshot</text>
+      <text x="268" y="30" class="tiny">github.com/Anas-AlArdah</text>
+      <g transform="translate(17 49)">
+        <rect width="113" height="46" rx="7" class="card"/><text x="15" y="27" class="purple" font-size="20">▣</text><text x="44" y="21" class="white" font-size="17" font-weight="700">12</text><text x="44" y="36" class="tiny">Repositories</text>
+        <rect x="121" width="113" height="46" rx="7" class="card"/><text x="136" y="27" class="blue" font-size="21">☆</text><text x="165" y="21" class="white" font-size="17" font-weight="700">20</text><text x="165" y="36" class="tiny">Stars</text>
+        <rect x="242" width="120" height="46" rx="7" class="card"/><text x="257" y="27" class="blue" font-size="21">♙</text><text x="286" y="21" class="white" font-size="17" font-weight="700">5</text><text x="286" y="36" class="tiny">Followers</text>
+      </g>
+      <rect x="18" y="108" width="362" height="28" fill="url(#contrib)"/>
+      <rect x="46" y="108" width="10" height="10" rx="1.5" fill="#2D6BCA"/><rect x="91" y="123" width="10" height="10" rx="1.5" fill="#4B91F4"/><rect x="151" y="108" width="10" height="10" rx="1.5" fill="#367BDD"/><rect x="226" y="123" width="10" height="10" rx="1.5" fill="#51A3FF"/><rect x="286" y="108" width="10" height="10" rx="1.5" fill="#2B69C7"/><rect x="346" y="123" width="10" height="10" rx="1.5" fill="#4B91F4"/>
+    </g>
+
+    <g transform="translate(873)">
+      <rect width="277" height="151" rx="12" class="panel"/>
+      <text x="18" y="34" class="blue" font-size="23">✉</text><text x="55" y="32" class="card-title">Let’s Connect</text>
+      <text x="18" y="59" class="small">Open to opportunities, projects,</text>
+      <text x="18" y="79" class="small">and conversations about tech.</text>
+      <g transform="translate(18 96)"><rect width="75" height="35" rx="6" class="pill"/><text x="17" y="23" class="label">GitHub</text><rect x="84" width="76" height="35" rx="6" class="pill"/><text x="101" y="23" class="label">Email</text><rect x="169" width="87" height="35" rx="6" fill="url(#purpleButton)" stroke="#665BFF"/><text x="185" y="23" class="label">Connect</text></g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(25 1765)">
+    <line x1="0" y1="0" x2="1150" y2="0" stroke="#183A52"/>
+    <rect x="2" y="14" width="4" height="24" rx="2" fill="#6475FF"/>
+    <text x="22" y="28" class="white" font-size="13" font-weight="700">Thank you for visiting my profile!</text>
+    <text x="22" y="45" class="tiny">Consistent learning and building real projects lead to real opportunities.</text>
+    <text x="905" y="32" class="small">Build  ·  Learn  ·  Improve  ·  Repeat</text>
+    <rect x="1121" y="27" width="27" height="2" fill="#6475FF"/>
+  </g>
+</svg>
